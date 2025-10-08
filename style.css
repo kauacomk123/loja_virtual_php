@@ -1,0 +1,65 @@
+/* Estilos Gerais para o Corpo da Página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fundo bem claro, quase branco */
+    color: #333; /* Cor de texto escura para bom contraste */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo mais ao topo */
+    min-height: 100vh;
+}
+
+/* Estilos para a Div do Formulário */
+.formulario {
+    background-color: #ffffff; /* Fundo branco para o container do formulário */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 400px; /* Limita a largura para um formulário simples */
+}
+
+/* Estilos para o Título */
+.formulario h1 {
+    color: #4CAF50; /* Cor verde clara para o título */
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Estilos para os Elementos dentro do Formulário */
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos do formulário */
+}
+
+/* Estilos para Inputs de Texto, Número e Select */
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+    margin-top: 5px; /* Espaço entre o label e o input/select */
+}
+
+/* Estilos para o Botão de Submissão */
+.formulario input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #45a049; /* Escurece um pouco no hover */
+}

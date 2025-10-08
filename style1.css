@@ -1,0 +1,43 @@
+/* Estilos Gerais para o Corpo da Página (OK) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    color: #333; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    text-align: center;
+}
+.resultado-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%;
+    max-width: 600px; /* Limita a largura para um visual limpo */
+    text-align: center; /* CHAVE: Centraliza o texto e o link dentro deste container */
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+    display: inline-block; 
+    padding: 8px 15px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px; /* Adicionando de volta a borda arredondada */
+    
+    /* CHAVE 2: Adiciona espaço acima do link para separá-lo do texto de resultado. */
+    margin-top: 25px; 
+    
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
