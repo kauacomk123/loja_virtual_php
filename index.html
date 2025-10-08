@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja virtual</title>
+</head>
+<body>
+    <div class="formulario">
+    <h1>cadastro de produto</h1>
+    <form action="produto.php" method="post">
+        Nome do produto: <input type="text" name="nome_produto">
+        preço do produto (R$): <input type="number" name="valor" step="0.1">
+        <label for="categoria">Escolha a categoria:</label>
+        <select name="categoria" id="categoria">
+            <option value="">--Selecione--</option>
+            <option value="1">eletrõnico</option>
+            <option value="2">roupa</option>
+            <option value="3">alimento</option>
+        </select>
+
+        <input type="submit" value="cadastar produto">
+  </div>
+
+</body>
+</html>
